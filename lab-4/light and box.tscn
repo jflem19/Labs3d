@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg12icbp0kiap"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_bnhnv"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="ShapeCast3D" type="ShapeCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0107653, -0.00766015)
+shape = SubResource("WorldBoundaryShape3D_bnhnv")
